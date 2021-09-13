@@ -23,7 +23,15 @@ module.exports = {
         primary: '#dbdbdb',
       },
     },
-    extend: {},
+    extend: {
+      maxWidth: {
+        '1/3': '33.33%',
+        '2/5': '40%',
+      },
+      minHeight: {
+        230: '230px',
+      },
+    },
   },
   variants: {
     extend: {},

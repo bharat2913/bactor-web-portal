@@ -4,10 +4,10 @@ import * as ROUTES from '../constants/routes';
 
 export default function Header() {
   const user = {
-    username: false,
+    username: true,
   };
   return (
-    <header className=' h-16 bg-gray-background border-b border-gray-primary mb-8 '>
+    <header className=' h-16 bg-gray-background border-b border-gray-primary '>
       <div className='container mx-auto max-w-screen-md h-full'>
         <div className=' flex justify-between h-full'>
           <div className='text-gray-700 text-center flex items-center align-items cursor-pointer'>
@@ -32,7 +32,22 @@ export default function Header() {
                 <Link to={ROUTES.DASHBOARD} aria-label='Dashboard'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='w-8 mr-6 text-black-light cursor-pointer bi bi-chat-right-dots-fill'
+                    className='w-7 mr-6 text-black-light cursor-pointer bi bi-chat-right-dots-fill'
+                    viewBox='0 0 16 16'
+                    fill='currentColor'
+                  >
+                    <path d='M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353V2zM5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2z' />
+                  </svg>
+                </Link>
+
+                <Link
+                  to={ROUTES.DASHBOARD}
+                  className='text-xs'
+                  aria-label='Posted Requirements'
+                >
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='w-7 mr-6 text-black-light cursor-pointer bi bi-chat-right-dots-fill'
                     viewBox='0 0 16 16'
                     fill='currentColor'
                   >
@@ -57,7 +72,7 @@ export default function Header() {
                   </svg>
                 </button>
                 <div className='flex items-center cursor-pointer'>
-                  <Link to={`/p/${user?.username}`}>
+                  <Link to={`/profile`}>
                     <img
                       className='rounded-full h-10 w-10 flex'
                       src='https://img.icons8.com/ios-glyphs/30/000000/user-male-circle.png'
