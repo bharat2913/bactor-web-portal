@@ -419,19 +419,18 @@ export default function Dashboard() {
         </div>
 
         <div className='flex flex-col mx-8 my-6 gap-4 text-gray-primary'>
-          <h1 className='text-5xl'>We connect Buyers & Sellers</h1>
+          <h1 className='text-5xl'>Here you get anything you want</h1>
           <p className='text-xl'>
-            India's largest online B2B marketplace, connecting buyers with
-            suppliers.
+            B2B marketplace, connecting buyers with suppliers.
           </p>
         </div>
 
         {/* Carousal Image */}
-        <img
+        {/* <img
           className='max-w-full mx-8 my-0'
           src='https://hm.imimg.com/imhome_gifs/home-banner-4.jpg'
           alt='heroImage'
-        />
+        /> */}
 
         <div className='flex flex-col mx-8 my-8 bg-gray-primary rounded-md p-4 shadow-lg gap-4'>
           <h2 className='text-2xl font-bold'>Trending</h2>
