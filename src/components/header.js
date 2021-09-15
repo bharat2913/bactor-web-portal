@@ -72,7 +72,7 @@ export default function Header() {
                   </svg>
                 </button>
                 <div className='flex items-center cursor-pointer'>
-                  <Link to={`/profile`}>
+                  <Link to={ROUTES.PROFILE}>
                     <img
                       className='rounded-full h-10 w-10 flex'
                       src='https://img.icons8.com/ios-glyphs/30/000000/user-male-circle.png'

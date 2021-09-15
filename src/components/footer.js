@@ -23,7 +23,6 @@ export default function Footer() {
           </div>
           <div>
             <p className='font-semibold text-black-light'>Suppliers Tool Kit</p>
-            <p>Sell on IndiaMART</p>
             <p>Latest BuyLead</p>
             <p>Learning Center</p>
           </div>
@@ -33,7 +32,6 @@ export default function Footer() {
             <p>Produt You Buy</p>
             <p>Press</p>
             <p>Search Products & Suppliers</p>
-            <p>Pay with IndiaMART</p>
           </div>
           <div>
             <p className='font-semibold text-black-light'>EVENTS</p>

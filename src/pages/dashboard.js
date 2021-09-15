@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../components/header';
 import Slice from '../components/slice';
+import Card2 from '../components/card2';
 import Footer from '../components/footer';
 
 export default function Dashboard() {
@@ -104,7 +105,6 @@ export default function Dashboard() {
           data: [
             'Weight Gain Nutrition',
             'Weight Gain Capsule',
-            'Pre workout Supplements',
             'Immune Booster',
           ],
         },
@@ -119,7 +119,6 @@ export default function Dashboard() {
           thumbnail:
             'https://5.imimg.com/data5/LQ/TI/FF/GLADMIN-3061/purell-advanced-hand-sanitizer-125x125.jpg',
           data: [
-            'Alcohol Based Hand Sanitizer',
             'Hand Sanitizer Spray',
             'Lifebuoy Hand Sanitizer',
             '3M Hand Sanitizer',
@@ -132,7 +131,6 @@ export default function Dashboard() {
             'https://5.imimg.com/data5/XG/DF/MY-2045391/tissue-papers-and-roles-125x125.jpg',
           data: [
             'Toilet Paper Roll',
-            'Tissue Jumbo Roll',
             'Cotton Towel',
             'Tissue Napkin',
             'Wet Wipes',
@@ -146,7 +144,6 @@ export default function Dashboard() {
             'Liquid Hand Wash',
             'Lifebuoy Hand Wash',
             'Hand Washing Gels',
-            'Antibacterial Hand Wash',
             'Paper Soap',
           ],
         },
@@ -182,14 +179,7 @@ export default function Dashboard() {
           title: 'Oxygen Supplies',
           thumbnail:
             'https://3.imimg.com/data3/TH/GC/GLADMIN-56254/oxygen-cylinders-125x125.jpg',
-          data: [
-            'Oxygen Cylinder',
-            'Portable Oxygen Can',
-            'Empty Oxygen Cylinder',
-            'Oxygen Concentrator',
-            'Oxygen Cylinder Manifold',
-            'Oxygen Flow Meter',
-          ],
+          data: ['Oxygen Cylinder', 'Oxygen Concentrator', 'Oxygen Flow Meter'],
         },
         {
           title: 'Surgical Caps',
@@ -206,7 +196,6 @@ export default function Dashboard() {
             'Face Shields ',
             'Disposable Gloves',
             'Disposable Face Mask',
-            'Disposable Shoe Cover',
           ],
         },
       ],
@@ -244,7 +233,6 @@ export default function Dashboard() {
           data: [
             'Infrared Thermometers',
             'Forehead Thermometer',
-            'Non Contact Thermometer',
             'Digital Thermometers',
           ],
         },
@@ -254,7 +242,6 @@ export default function Dashboard() {
             'https://5.imimg.com/data5/CM/CP/JH/SELLER-5038493/neonatal-portable-icu-ventilator-125x125.jpg',
           data: [
             'ICU Ventilator',
-            'Portable Medical Ventilator',
             'Transport Ventilator',
             'Siemens Ventilator',
             'Ventilator Circuits',
@@ -268,7 +255,6 @@ export default function Dashboard() {
             'Cardiology Stethoscope',
             'Dual Head Stethoscope',
             'Electronic Stethoscope',
-            'Pediatric Stethoscope',
           ],
         },
         {
@@ -277,7 +263,6 @@ export default function Dashboard() {
             'https://5.imimg.com/data5/NU/ZZ/AQ/SELLER-35236796/electric-suction-unit-125x125.jpg',
           data: [
             'Electric Suction Unit',
-            'Foot Operated Suction Unit',
             'Liposuction Machine',
             'Central Suction System',
           ],
@@ -315,23 +300,14 @@ export default function Dashboard() {
           title: 'Packaging Pouch',
           thumbnail:
             'https://4.imimg.com/data4/ED/XH/MY-4373725/packaging-pouch-125x125.jpg',
-          data: [
-            'Plastic Pouches',
-            'Stand Up Pouch',
-            'Zipper Pouches',
-            'Paper Pouch',
-            'Printed Pouches',
-          ],
+          data: ['Plastic Pouches', 'Stand Up Pouch', 'Paper Pouch'],
         },
         {
-          title:
-            'https://4.imimg.com/data4/ED/XH/MY-4373725/packaging-pouch-125x125.jpg',
+          title: 'Packaging Machines',
           thumbnail:
             'https://5.imimg.com/data5/VX/HN/DZ/SELLER-3217085/packaging-machine-125x125.png',
           data: [
             'Pouch Packaging Machines',
-            'Fruit Juice Packaging Machine',
-            'Blister Packaging Machines',
             'Shrink Packaging Machines',
             'Vacuum Packaging Machines',
           ],
@@ -343,7 +319,6 @@ export default function Dashboard() {
             'Powder Packaging Machine',
             'Liquid Packaging Machinery',
             'Snack Packing Machine',
-            'Ultrasonic Sealing Machine',
           ],
         },
       ],
@@ -396,6 +371,39 @@ export default function Dashboard() {
     },
   ];
 
+  const cardDetails = [
+    {
+      title: 'Earphones',
+      thumbnail:
+        'https://rukminim1.flixcart.com/image/150/150/k5lcvbk0pkrrdj/headphone/dynamic/z/j/h/jbl-c150siublk-original-imafeyby52kxehz2.jpeg?q=70',
+      price: '399',
+    },
+    {
+      title: 'Web Cam',
+      thumbnail:
+        'https://rukminim1.flixcart.com/image/150/150/ja73ki80/webcam/pc-webcam/7/q/e/logitech-c310-original-imaeztzqny7jh7gh.jpeg?q=70',
+      price: '299',
+    },
+    {
+      title: 'Speakers',
+      thumbnail:
+        'https://rukminim1.flixcart.com/image/150/150/jsrtn680/cooling-pad/f/j/z/tarkan-4-fans-original-imafe9w4gxyphh37.jpeg?q=70',
+      price: '499',
+    },
+    {
+      title: 'Keyboard Skins',
+      thumbnail:
+        'https://rukminim1.flixcart.com/image/150/150/j226avk0/keyboard-skin/9/a/b/laptop-ad-kb14-6-adnet-original-imaedq9hgbn7yy7z.jpeg?q=70',
+      price: '599',
+    },
+    {
+      title: 'Routers',
+      thumbnail:
+        'https://rukminim1.flixcart.com/image/150/150/jtx9evk0/router/g/g/k/d-link-dir-819-original-imaff5yhcm7fdfjr.jpeg?q=70',
+      price: '799',
+    },
+  ];
+
   return (
     <div>
       <Header />
@@ -424,6 +432,13 @@ export default function Dashboard() {
           src='https://hm.imimg.com/imhome_gifs/home-banner-4.jpg'
           alt='heroImage'
         />
+
+        <div className='flex flex-col mx-8 my-8 bg-gray-primary rounded-md p-4 shadow-lg gap-4'>
+          <h2 className='text-2xl font-bold'>Trending</h2>
+          <div className='flex gap-4'>
+            <Card2 cardDetails={cardDetails} />
+          </div>
+        </div>
         <Slice slices={slices} />
 
         <Footer />
